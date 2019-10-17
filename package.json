@@ -1,0 +1,37 @@
+{
+  "name": "jss19_checkpoint3",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "jest",
+    "start": "nodemon server.js",
+    "tarkista": "node ./.check/tarkista.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tumppi1975/jss19_checkpoint3.git"
+  },
+  "keywords": [
+    "Academy",
+    "JavaScript",
+    "Checkpoint"
+  ],
+  "author": "",
+  "license": "ECL-2.0",
+  "bugs": {
+    "url": "https://github.com/tumppi1975/jss19_checkpoint3/issues"
+  },
+  "homepage": "https://github.com/tumppi1975/jss19_checkpoint3#readme",
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "morgan": "^1.9.1",
+    "nodemon": "^1.19.4"
+  }
+}
